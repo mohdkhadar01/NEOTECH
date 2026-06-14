@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir -p \"C:/Users/victus/Downloads/neo-verse-ai-main/neo-verse-ai-main/src/routes/api\")",
+      "Bash(mkdir -p \"C:/Users/victus/Downloads/neo-verse-ai-main/neo-verse-ai-main/src/lib/ai\")",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 30 npm run dev)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -X POST http://localhost:8080/api/simulate -H 'Content-Type: application/json' -d '{\"action\":\"simulate\",\"idea\":\"Food delivery app in Bangalore\",\"mode\":\"autopilot\"}')",
+      "Bash(mv simulate.ts -simulate.ts)",
+      "Bash(mv tts.ts -tts.ts)",
+      "Bash(mv simulate.ts ./-simulate.ts)",
+      "Bash(mv tts.ts ./-tts.ts)",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(pkill -f \"vite dev\")",
+      "Bash(pkill -f \"node\")"
+    ]
+  }
+}
